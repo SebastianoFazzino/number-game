@@ -1,0 +1,7 @@
+server:
+  port: 9125
+
+spring:
+  application:
+    name: Number Game
+    version: 1.0.0
