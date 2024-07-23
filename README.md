@@ -33,7 +33,7 @@ This project is a Java Spring Boot implementation of a number-based betting game
 - **Gameplay**:
     1. Players send a number between 1 and 100 along with a bet amount.
     2. The server generates a random number in the same range.
-    3. If the player's number is greater than the generated number, the win is calculated as: `bet * (99 / (100 - generatedNumber))`.
+    3. If the player's number is greater than the generated number, the win is calculated as: `bet * (99 / selectedNumber)`.
     4. The server returns the generated number, win status, and the amount won.
 
 ### REST API
@@ -222,7 +222,7 @@ mvn test
 
 | Step                     | Command                                                                                   |
 |--------------------------|-------------------------------------------------------------------------------------------|
-| **Clone the Repository** | `git clone https://github.com/your-username/your-repo.git`<br>`cd your-repo`              |
+| **Clone the Repository** | `git clone https://github.com/SebastianoFazzino/number-game`<br>`cd your-repo`            |
 | **Install Java**         | [Java Installation](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) |
 | **Install Maven**        | [Maven Installation](https://maven.apache.org/install.html)                               |
 | **Build the Project**    | `mvn compile`                                                                             |
@@ -230,3 +230,5 @@ mvn test
 | **Run Tests**            | `mvn test`                                                                                |
 | **Clean the Project**    | `mvn clean`                                                                               |
 | **Package the Project**  | `mvn package`                                                                             |
+
+You can find an enhanced version of this project [here](https://github.com/SebastianoFazzino/enhanced-number-game.git).
